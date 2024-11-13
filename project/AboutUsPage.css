@@ -1,0 +1,72 @@
+.about-us-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fdfdfd;
+    text-align: center;
+  }
+  
+  .about-us-content h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .about-us-content p {
+    color: #34495e;
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .about-us-mission,
+  .about-us-values {
+    background-color: #eaeaea;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .about-us-mission h3,
+  .about-us-values h3 {
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-us-values li {
+    color: #34495e;
+    margin: 5px 0;
+    font-size: 1em;
+    position: relative;
+  }
+  
+  .about-us-values li::before {
+    content: '✔';
+    position: absolute;
+    left: -25px;
+    color: #27ae60;
+  }
+  .back-to-home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.back-to-home-button:hover {
+    background-color: #1a6d99;
+}
+.chart-container {
+  margin: 40px 0;
+}
